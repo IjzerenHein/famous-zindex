@@ -1,0 +1,11 @@
+body, div {
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: normal;
+  color: blue;
+  text-indent: 10px;
+  line-height: 30px;
+  vertical-align: middle;
+}
+body {
+  background: white;
+}
