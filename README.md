@@ -1,33 +1,20 @@
-famous-flex-demo
+famous-zindex
 ================
 
-Demo for showcasing famous-flex.
+Test project for finding the cause of certain z-ordering issues.
 
-###[View the demo here](https://rawgit.com/IjzerenHein/famous-flex-demo/master/dist/index.html)
+###[Run the demo here](https://rawgit.com/IjzerenHein/famous-zindex/master/dist/index.html)
 
-## Getting started
 
-To install, install all npm and bower modules:
+## Conclusion
 
-```
-npm install
-bower install
-```
+Using 'overflow: hidden' seems to break the z-translate coordinate in the matrix-function.
+This is really annoying... :/
 
-To run & open the live-reload development server (http://localhost:8080):
 
-```
-npm run dev
-```
+## Contact
+- 	@IjzerenHein
+- 	http://www.gloey.nl
+- 	hrutjes@gmail.com
 
-To build and minify:
-
-```
-npm run dist
-```
-
-To view the demo locally (opens dist/index.html):
-
-```
-npm run open
-```
+© 2014 - Hein Rutjes
