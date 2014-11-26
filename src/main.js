@@ -90,7 +90,7 @@ define(function(require) {
         }
     }));
 
-    // Inside two container surfaces (left-bottom)
+    // Container surface with overflow:hidden (left-bottom)
     renderNode = new RenderNode(new Modifier({
         proportions: [0.5, 0.5],
         origin: [0.75, 0.25],
